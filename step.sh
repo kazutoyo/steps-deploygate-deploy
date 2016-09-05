@@ -6,7 +6,6 @@ APP_BINARY_PATH="$app_binary_path"
 DEPLOYGATE_USER_NAME="$deploy_gate_user_name"
 DEPLOYGATE_API_KEY="$deploy_gate_api_key"
 DEPLOYGATE_DISTRIBUTION_KEY="$deploy_gate_distribution_key"
-DEPLOY_GATE_INSTALL_URL="$deploy_gate_install_url"
 
 echo "==== VARIABLE ======"
 echo $app_binary_path
