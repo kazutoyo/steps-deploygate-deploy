@@ -16,41 +16,41 @@ is_always_run: false
 is_skippable: false
 run_if: ""
 inputs:
-  - app_binary_path:
-    opts:
-      title: "App binary path"
-      summary: "App binary path (.app or .apk)"
-      description: "App binary path (.app or .apk)"
-      is_expand: true
-      is_required: true
-  - deploy_gate_user_name:
-    opts:
-      title: "DeployGate user name"
-      summary: "DeployGate user name"
-      description: "DeployGate user name"
-      is_expand: true
-      is_required: true
-  - deploy_gate_api_key:
-    opts:
-      title: "DeployGate API Key"
-      summary: "DeployGate API Key"
-      description: "DeployGate API Key"
-      is_expand: true
-      is_required: true
-  - deploy_gate_distribution_key:
-    opts:
-      title: "DeployGate Distribution Key"
-      summary: "DeployGate Distribution Key"
-      description: "DeployGate Distribution Key"
-      is_expand: true
-      is_required: true
-  - deploy_gate_install_url:
-    opts:
-      title: "DeployGate install page URL"
-      summary: "DeployGate install page URL"
-      description: "DeployGate install page URL"
-      is_expand: true
-      is_required: false
+- app_binary_path: $BITRISE_IPA_PATH
+  opts:
+    title: "App binary path"
+    summary: "App binary path (.app or .apk)"
+    description: "App binary path (.app or .apk)"
+    is_expand: true
+    is_required: true
+- deploy_gate_user_name:
+  opts:
+    title: "DeployGate user name"
+    summary: "DeployGate user name"
+    description: "DeployGate user name"
+    is_expand: true
+    is_required: true
+- deploy_gate_api_key:
+  opts:
+    title: "DeployGate API Key"
+    summary: "DeployGate API Key"
+    description: "DeployGate API Key"
+    is_expand: true
+    is_required: true
+- deploy_gate_distribution_key:
+  opts:
+    title: "DeployGate Distribution Key"
+    summary: "DeployGate Distribution Key"
+    description: "DeployGate Distribution Key"
+    is_expand: true
+    is_required: true
+- deploy_gate_install_url:
+  opts:
+    title: "DeployGate install page URL"
+    summary: "DeployGate install page URL"
+    description: "DeployGate install page URL"
+    is_expand: true
+    is_required: false
 outputs:
   - DEPLOY_GATE_INSTALL_URL:
     opts:
