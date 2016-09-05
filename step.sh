@@ -9,11 +9,11 @@ DEPLOYGATE_DISTRIBUTION_KEY="$deploy_gate_distribution_key"
 DEPLOY_GATE_INSTALL_URL="$deploy_gate_install_url"
 
 echo "==== VARIABLE ======"
-echo $APP_BINARY_PATH
-echo $DEPLOYGATE_USER_NAME
-echo "$deploy_gate_user_name"
-echo $DEPLOYGATE_API_KEY
-echo $DEPLOYGATE_DISTRIBUTION_KEY
+echo $app_binary_path
+echo $deploy_gate_user_name
+echo $deploy_gate_api_key
+echo $deploy_gate_distribution_key
+echo $deploy_gate_install_url
 echo $DEPLOYGATE_INSTALL_URL
 echo "==================="
 
