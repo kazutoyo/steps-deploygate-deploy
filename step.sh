@@ -13,7 +13,7 @@ echo $deploy_gate_user_name
 echo $deploy_gate_api_key
 echo $deploy_gate_distribution_key
 echo $deploy_gate_install_url
-echo $$DEPLOYGATE_API_KEY
+echo $DEPLOYGATE_API_KEY
 echo $DEPLOYGATE_INSTALL_URL
 echo "==================="
 
