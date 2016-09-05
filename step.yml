@@ -23,7 +23,6 @@ inputs:
       description: "App binary path (.app or .apk)"
       is_expand: true
       is_required: true
-inputs:
   - deploy_gate_user_name:
     opts:
       title: "DeployGate user name"
@@ -31,7 +30,6 @@ inputs:
       description: "DeployGate user name"
       is_expand: true
       is_required: true
-inputs:
   - deploy_gate_api_key:
     opts:
       title: "DeployGate API Key"
@@ -39,7 +37,6 @@ inputs:
       description: "DeployGate API Key"
       is_expand: true
       is_required: true
-inputs:
   - deploy_gate_distribution_key:
     opts:
       title: "DeployGate Distribution Key"
@@ -47,7 +44,6 @@ inputs:
       description: "DeployGate Distribution Key"
       is_expand: true
       is_required: true
-inputs:
   - deploy_gate_install_url:
     opts:
       title: "DeployGate install page URL"
