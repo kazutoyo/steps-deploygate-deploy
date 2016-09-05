@@ -1,9 +1,9 @@
 title: "DeployGate deploy"
 summary: Deloy the app to DeployGate
 description: Deloy the app to DeployGate
-website: https://github.com/peroli-inc/steps-deploygate-deploy
-source_code_url: https://github.com/peroli-inc/steps-deploygate-deploy
-support_url: https://github.com/peroli-inc/steps-deploygate-deploy/issues
+website: https://github.com/kazutoyo/steps-deploygate-deploy
+source_code_url: https://github.com/kazutoyo/steps-deploygate-deploy
+support_url: https://github.com/kazutoyo/steps-deploygate-deploy/issues
 host_os_tags:
   - osx-10.10
 project_type_tags:
