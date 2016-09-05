@@ -1,0 +1,65 @@
+title: "DeployGate deploy"
+summary: Deloy the app to DeployGate
+description: Deloy the app to DeployGate
+website: https://github.com/peroli-inc/steps-deploygate-deploy
+source_code_url: https://github.com/peroli-inc/steps-deploygate-deploy
+support_url: https://github.com/peroli-inc/steps-deploygate-deploy/issues
+host_os_tags:
+  - osx-10.10
+project_type_tags:
+  - ios
+  - android
+type_tags:
+  - script
+is_requires_admin_user: true
+is_always_run: false
+is_skippable: false
+run_if: ""
+inputs:
+  - app_binary_path:
+    opts:
+      title: "App binary path"
+      summary: "App binary path (.app or .apk)"
+      description: "App binary path (.app or .apk)"
+      is_expand: true
+      is_required: true
+inputs:
+  - deploy_gate_user_name:
+    opts:
+      title: "DeployGate user name"
+      summary: "DeployGate user name"
+      description: "DeployGate user name"
+      is_expand: true
+      is_required: true
+inputs:
+  - deploy_gate_api_key:
+    opts:
+      title: "DeployGate API Key"
+      summary: "DeployGate API Key"
+      description: "DeployGate API Key"
+      is_expand: true
+      is_required: true
+inputs:
+  - deploy_gate_distribution_key:
+    opts:
+      title: "DeployGate Distribution Key"
+      summary: "DeployGate Distribution Key"
+      description: "DeployGate Distribution Key"
+      is_expand: true
+      is_required: true
+inputs:
+  - deploy_gate_install_url:
+    opts:
+      title: "DeployGate install page URL"
+      summary: "DeployGate install page URL"
+      description: "DeployGate install page URL"
+      is_expand: true
+      is_required: false
+outputs:
+  - DEPLOY_GATE_INSTALL_URL:
+    opts:
+      title: "DeployGate Install URL"
+      summary: DeployGate Install URL
+      description: DeployGate Install URL
+      is_expand: false
+      is_required: false
